@@ -48,14 +48,13 @@
       min="10" 
      
     />
-    
-      <input 
-      type="text" 
-      id="gender" 
-      name="gender" 
-      placeholder="Enter your gender" 
-       
-    />
+  <select id="gender" name="gender" required>
+          <option value="" disabled selected>Select your gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+        <br>
     <textarea name="desc" id="desc" cols="30" rows="10"placeholder="Enter Your Suggestions"></textarea>
     <button class="btn">Submit</button>
   </form>
